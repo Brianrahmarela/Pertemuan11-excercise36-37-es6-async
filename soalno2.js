@@ -13,7 +13,7 @@ const getApiFlag = async () => {
         let card = document.createElement('div');
 
         card.innerHTML = `
-        <img src="${item.flag}"/>
+        <img style="height: 150px; width: 200px"; src="${item.flag}"/>
         <span>${item.name}</span>
         `
         card.classList.add("card");
